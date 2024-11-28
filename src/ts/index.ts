@@ -1,7 +1,8 @@
-const inputs = document.querySelectorAll(".input");
-const btnEnviar = document.querySelector(".btn-enviar");
+const inputs = document.querySelectorAll(".input") as NodeListOf<HTMLInputElement>;
 
-inputs.forEach(campo => {
+const btnEnviar = document.querySelector(".btn-enviar") as HTMLButtonElement;
+
+inputs.forEach((campo) => {
  // Verifica se os campos foram preenchidos
     campo.addEventListener("keyup", () => {
         if(campo.value !== ""){
@@ -9,8 +10,7 @@ inputs.forEach(campo => {
             campo.classList.add("campo-preenchido");
         } else{
             campo.classList.remove("campo-preenchido");
-         // campo.classList.add("campo-vazio")
-         // Não deixei essa parte pq o desafio não pede, mas vou deixar essa nota só para verem que pensei nisso. 😉
+            campo.classList.add("campo-vazio")
         }
     });
 

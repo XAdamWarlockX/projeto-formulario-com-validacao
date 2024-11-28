@@ -63,9 +63,14 @@ main{
     font-size: 15px;
     border-radius: 10px;
     border-style: none;
-    background: #3CCC87;
+    background: #15cf75;
     color: #ffffff;
     cursor: pointer;
+}
+
+.formulario .campo .btn-enviar:hover{
+    background-color: #3CCC87;
+    transition: 0.3s ease-in-out;
 }
 
 /* Estilos da bordas para o JS  */
