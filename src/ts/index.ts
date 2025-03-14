@@ -1,9 +1,8 @@
 const inputs = document.querySelectorAll(".input") as NodeListOf<HTMLInputElement>;
-
 const btnEnviar = document.querySelector(".btn-enviar") as HTMLButtonElement;
 
 inputs.forEach((campo) => {
- // Verifica se os campos foram preenchidos
+    // Verifica se os campos foram preenchidos
     campo.addEventListener("keyup", () => {
         if(campo.value !== ""){
             campo.classList.remove("campo-vazio")
@@ -13,8 +12,7 @@ inputs.forEach((campo) => {
             campo.classList.add("campo-vazio")
         }
     });
-
- // Varifica se tem algum campo vazio ao clicar para enviar
+    // Varifica se tem algum campo vazio ao clicar para enviar
     btnEnviar.addEventListener("click", () => {
         if (campo.value !== ""){
             campo.classList.remove("campo-vazio");

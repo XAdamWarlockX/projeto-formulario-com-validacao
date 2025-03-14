@@ -4,6 +4,8 @@
     "target": "ES6",   // Compatibilidade com navegadores mais antigos
     "module": "ESNext", // Suporte a módulos ES (import/export)
   },
+  // Inclui arquivos que serão compilados
   "include": ["src/ts"], // Diretório onde estão os arquivos .ts
+  // Exclui arquivos que não podem ser compilados
   "exclude": ["node_modules"]
 }

@@ -1,0 +1,81 @@
+@media (max-width: 1200px) {
+    main{
+        /* display: flex; */
+        flex-direction: column;
+        /* padding: 20px; */
+        justify-content: center;
+    }
+
+    .comunicado{
+        /* color: #ffffff; */
+        width: 600px;
+        margin-bottom: 50px;
+    }
+
+    .comunicado .duvida{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .comunicado .recado{
+        font-size: 25px;
+    }
+
+    .formulario{
+        width: 600px;
+        height: 500px;
+        /* padding: 30px; */
+    }
+}
+
+@media (max-width: 600px) {
+    main{
+        flex-direction: column;
+    }
+
+    .comunicado{
+        width: 350px;
+        margin-bottom: 30px;
+    }
+
+    .comunicado .duvida{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .comunicado .recado{
+        font-size: 20px;
+    }
+
+    .formulario{
+        width: 350px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 400px) {
+    main{
+        flex-direction: column;
+    }
+
+    .comunicado{
+        /* color: #ffffff; */
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .comunicado .duvida{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .comunicado .recado{
+        font-size: 18px;
+    }
+
+    .formulario{
+        width: 300px;
+        height: 450px;
+        padding: 15px;
+    }
+}

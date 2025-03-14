@@ -2,7 +2,7 @@
 
 Projeto de um formulário que verifica se os campos estão preenchidos ou não.
 
-## Linguagens usadas
+## Tecnologias usadas 👨‍💻
 
 - HTML <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 
@@ -12,19 +12,23 @@ Projeto de um formulário que verifica se os campos estão preenchidos ou não.
 
 - TypeScript <img align="center" alt="TypeScript" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/typescript.svg">
 
-## Prévia
+## Prévia Desktop 💻
 
-<img src="./src/images/previa.png">
+<img src="./src/images/previa-desktop.gif" alt="Prévia em gif no desktop">
 
-## Propósito da aplicação
+## Prévia Mobile 📱
+
+<img src="./src/images/previa-mobile.gif" alt="Prévia em gif no mobile">
+
+## Propósito da aplicação 🤔
 
 Demonstrar minhas habilidades na criação de uma página de cadastro.
 
-## Funcionalidades da aplicação
+## Funcionalidades da aplicação 💡
 
 O projeto tem apenas uma função, exibir na tela se os campos estão preenchidos ou não, isso acontece quando selecionamos um deles e preenchemos ou não, e quando clicamos em enviar.
 
-## Passo a passo para clonar o projeto
+## Passo a passo para clonar o projeto 📝
 
 Para clonar o projeto você pode usar o terminal de sua preferência, o passo a passo a seguir usa os comandos do gitbash como exemplo.
 
@@ -52,6 +56,6 @@ tsc
 ```
 6 - Abra no vscode
 ```
-cd .
+code .
 ```
 7 - Execute o projeto usando o Live server
